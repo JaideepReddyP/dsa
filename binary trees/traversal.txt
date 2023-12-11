@@ -1,0 +1,24 @@
+Pre-order:
+1. visit node
+2. left subtree
+3. right subtree
+
+In-order:
+1. left subtree
+2. visit node
+3. right subtree
+
+Post-order:
+1. left subtree
+2. right subtree
+3. visit node
+
+
+
+Psuedocode:
+
+fn(node):
+    if(NULL) return
+    print(node)
+    fn(left child)
+    fn(right child)
